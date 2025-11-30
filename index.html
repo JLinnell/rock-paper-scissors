@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Rock, Paper, Scissors</title>
 </head>
 <body>
-<button id="myButton" >Play Rock, Paper, Scissors</button>
+  <header role="banner" class="clearfix">
+    <div>
+      <a href="index.html">
+      </a>
+    </div>
+    <p>Round: <span id="round-number">1</span>/5</p>
+    <p>Your Score: <span id="human-score">0</span></p>
+    <p>Computer Score: <span id="computer-score">0</span></p>
+  </header>
+  <main role="main">
+    <div class="quizStart">
+      <h1>Let's Play!</h1>
+    </div>
+    <button id="rock">Rock 🪨</button>
+    <button id="paper">Paper 📜</button>
+    <button id="scissors">Scissors ✂️</button>
+    <div id="output"></div>
+  </main>
+</body>
 <script src="main.js"></script>
 </body>
 </html>
